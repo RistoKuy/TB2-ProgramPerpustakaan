@@ -23,6 +23,9 @@ class Buku:
     
     def __str__(self):
         return f"{self.judul} by {self.penulis}"
+    
+# B. Membuat table buku yang berisi ketiga atribut pada system basis data
+# Query ada dalam file db.sql
 
 # C. Membuat Method GET untuk Mengambil Data dari Basis Data
 def get_buku_by_id(buku_id):
